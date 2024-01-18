@@ -109,6 +109,10 @@ function speakThis(message) {
         const finalText = "he is your bestie";
         speech.text = finalText;
     }
+    else if(message.includes('who is akshay')) {
+        const finalText = "he is an engineering boy";
+        speech.text = finalText;
+    }
     else if(message.includes('my favourite cricketer')) {
         const finalText = "Virat Kohli";
         speech.text = finalText;
