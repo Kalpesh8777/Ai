@@ -81,6 +81,10 @@ function speakThis(message) {
         const finalText = "He is a good boy";
         speech.text = finalText;
     }
+    else if(message.includes('who is payal')) {
+        const finalText = "she is your vahini";
+        speech.text = finalText;
+    }
     else if(message.includes('what is my birth date')) {
         const finalText = "it's 12th of march 2003";
         speech.text = finalText;
