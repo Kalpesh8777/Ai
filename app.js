@@ -117,20 +117,24 @@ function speakThis(message) {
         const finalText = "Virat Kohli";
         speech.text = finalText;
     }
+    else if(message.includes('who is dhiraj')) {
+        const finalText = "he is your small brother";
+        speech.text = finalText;
+    }
     else if(message.includes('my favourite actor')) {
         const finalText = "sidharth malhotra";
         speech.text = finalText;
     }
     else if(message.includes('my favourite actress')) {
-        const finalText = "Tripti dimri";
+        const finalText = "Mrunal Thakur";
         speech.text = finalText;
     }
     else if(message.includes('my favourite movie')) {
-        const finalText = "sanam teri kasam";
+        const finalText = "Sanam teri kasam";
         speech.text = finalText;
     }
     else if(message.includes('my favourite music track')) {
-        const finalText = "Tera chehra";
+        const finalText = "Teeraa cheeheraa";
         speech.text = finalText;
     }
     else if(message.includes('who is neha')) {
@@ -142,7 +146,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
     else if(message.includes('who is better')) {
-        const finalText = "both are made with skills, can't tell specifically. they are better in there own way";
+        const finalText = "both chatgpt and veer boy are made with skills, can't tell specifically. they are better in there own way";
         speech.text = finalText;
     }
     else if(message.includes('who is kunal')) {
@@ -150,7 +154,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
     else if(message.includes('who is khushi')) {
-        const finalText = "she is an chapari girl";
+        const finalText = "she is an engineering girl";
         speech.text = finalText;
     }
     else if(message.includes('my fevourite color')) {
