@@ -85,6 +85,30 @@ function speakThis(message) {
         const finalText = "she is your vahini";
         speech.text = finalText;
     }
+    else if(message.includes('who is sayali')) {
+        const finalText = "she is an beautiful girl";
+        speech.text = finalText;
+    }
+    else if(message.includes('who is sorrav')) {
+        const finalText = "he is an talented boy";
+        speech.text = finalText;
+    }
+    else if(message.includes('who is parag')) {
+        const finalText = "he is an handsome boii";
+        speech.text = finalText;
+    }
+    else if(message.includes('who is bhavesh')) {
+        const finalText = "he is cute boy from delhi";
+        speech.text = finalText;
+    }
+    else if(message.includes('who is gaju')) {
+        const finalText = "he is very hardworking boy";
+        speech.text = finalText;
+    }
+    else if(message.includes('my fevourite pokemon')) {
+        const finalText = "your fevourite pokemon is pikachu";
+        speech.text = finalText;
+    }
     else if(message.includes('what is my birth date')) {
         const finalText = "it's 12th of march 2003";
         speech.text = finalText;
